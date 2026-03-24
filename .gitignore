@@ -10,6 +10,7 @@ data/raw/*
 data/processed/*
 data/geo/*
 !data/*/.gitkeep
+data/auth/*.json
 
 # Outputs
 outputs/figures/*
