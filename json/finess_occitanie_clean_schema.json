@@ -1,0 +1,107 @@
+[
+  {
+    "name": "numero finess etablissement juridique",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "numero finess etablissement",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libelle description equipement sociaux",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libta_equipement",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "rsej",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "activite",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libelle activite",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "forme",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libelle forme",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "nofinessej_1",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "raison_sociale",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "rslongue",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "code commune",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "departement",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libelle departement",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "categetab",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "categorie",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "latitude",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "longitude",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "type d etablissements",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "code_insee",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

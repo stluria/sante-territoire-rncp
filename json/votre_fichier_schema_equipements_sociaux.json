@@ -1,0 +1,142 @@
+[
+  {
+    "name": "nofinesset",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "nofinessej",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "de",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libde",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ta",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libta",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "client",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libclient",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sourceinfo",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "capinstot",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "capinstm",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "capinstf",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "capinsthab",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ageminiinst",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "agemaxiinst",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "indsupinst",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "datederinst",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "datepremautor",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "capautot",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "capautm",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "capautf",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "capauthab",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ageminiaut",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "agemaxiaut",
+    "type": "FLOAT",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "indsupaut",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "dateautor",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "datemajaut",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "datemajinst",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

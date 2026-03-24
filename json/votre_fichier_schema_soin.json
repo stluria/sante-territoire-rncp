@@ -1,0 +1,102 @@
+[
+  {
+    "name": "nofinessej",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "rsej",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "activite",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libactivite",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "modalite",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libmodalite",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "forme",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libforme",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "noautor",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "dateautor",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "nofinesset",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "rset",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "noligautor",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "noligautoranc",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "noautorarhgos",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "noimplarhgos",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sectpsy",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libsectpsy",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "datemeo",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "datefin",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

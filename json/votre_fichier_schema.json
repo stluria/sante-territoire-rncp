@@ -1,0 +1,177 @@
+[
+  {
+    "name": "nofinesset",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "nofinessej",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "rs",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "rslongue",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "complrs",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "compldistrib",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "numvoie",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "typvoie",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "voie",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "compvoie",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "lieuditbp",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "commune",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "departement",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libdepartement",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ligneacheminement",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "telephone",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "telecopie",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "categetab",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libcategetab",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "categagretab",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libcategagretab",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "siret",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "codeape",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "codemft",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libmft",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "codesph",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "libsph",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "dateouv",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "dateautor",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "datemaj",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "numuai",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "coordxet",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "coordyet",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "sourcecoordet",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "datemaj_geoloc",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]

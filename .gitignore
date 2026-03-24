@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+
+# Data (fichiers lourds)
+data/raw/*
+data/processed/*
+data/geo/*
+!data/*/.gitkeep
+
+# Outputs
+outputs/figures/*
+outputs/reports/*
+!outputs/*/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
