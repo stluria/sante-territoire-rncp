@@ -10,6 +10,12 @@ data/raw/*
 data/processed/*
 data/geo/*
 !data/*/.gitkeep
+data/auth/*.json
+data/auth
+
+#brouillons
+
+src/brouillons
 
 # Outputs
 outputs/figures/*
