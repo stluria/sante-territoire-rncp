@@ -1,0 +1,34 @@
+2026-04-07 15:14:32,949 [INFO] ============================================================
+2026-04-07 15:14:32,950 [INFO] DÉMARRAGE DE LA COLLECTE FINESS
+2026-04-07 15:14:32,953 [INFO] Répertoire de destination : /home/sluria/code/stluria/sante-territoire-rncp/data/raw
+2026-04-07 15:14:32,954 [INFO] ============================================================
+2026-04-07 15:14:32,954 [INFO] 
+→ FINESS activités de soins (finess_activites_soin.csv)
+2026-04-07 15:14:32,954 [INFO] Téléchargement : https://www.data.gouv.fr/fr/datasets/r/2ce43ade-8d2c-4d1d-81da-ca06c82abc68
+2026-04-07 15:14:37,672 [INFO]   ✓ Téléchargé : finess_activites_soin.csv (34.0 Mo)
+2026-04-07 15:14:37,842 [INFO]   ✓ Intégrité OK : 102756 lignes | MD5 : 380c16178f72de41c781b92ebf44e507
+2026-04-07 15:14:37,843 [INFO] 
+→ FINESS activités de soins (finess_equipements.csv)
+2026-04-07 15:14:37,843 [INFO] Téléchargement : https://www.data.gouv.fr/api/1/datasets/r/1c295b5d-6575-467c-abe9-32e7753ca1cb
+2026-04-07 15:14:39,843 [INFO]   ✓ Téléchargé : finess_equipements.csv (24.8 Mo)
+2026-04-07 15:14:40,019 [INFO]   ✓ Intégrité OK : 160711 lignes | MD5 : f6fca81bce12f92829238e57205706d0
+2026-04-07 15:14:40,019 [INFO] 
+→ FINESS équipements sociaux et médico-sociaux (finess_etablissements.csv)
+2026-04-07 15:14:40,020 [INFO] Téléchargement : https://www.data.gouv.fr/api/1/datasets/r/98f3161f-79ff-4f16-8f6a-6d571a80fea2
+2026-04-07 15:14:42,044 [INFO]   ✓ Téléchargé : finess_etablissements.csv (45.6 Mo)
+2026-04-07 15:14:42,276 [INFO]   ✓ Intégrité OK : 205384 lignes | MD5 : d9099898cc9a559cc222138bce5470d1
+2026-04-07 15:14:42,278 [INFO] 
+→ Communes françaises 2025 (INSEE) (v_commune_2025.csv)
+2026-04-07 15:14:42,278 [INFO] Téléchargement : https://www.insee.fr/fr/statistiques/fichier/8377162/v_commune_2025.csv
+2026-04-07 15:14:42,782 [INFO]   ✓ Téléchargé : v_commune_2025.csv (3.4 Mo)
+2026-04-07 15:14:43,471 [INFO]   ✓ Intégrité OK : 37548 lignes | MD5 : 597646d4e82d40d9d4f494b220e451d5
+2026-04-07 15:14:43,472 [INFO] 
+============================================================
+2026-04-07 15:14:43,472 [INFO] RÉSUMÉ COLLECTE
+2026-04-07 15:14:43,472 [INFO]   ✓ finess_activites_soin.csv : ok
+2026-04-07 15:14:43,473 [INFO]   ✓ finess_equipements.csv : ok
+2026-04-07 15:14:43,474 [INFO]   ✓ finess_etablissements.csv : ok
+2026-04-07 15:14:43,474 [INFO]   ✓ v_commune_2025.csv : ok
+2026-04-07 15:14:43,475 [INFO] 
+✓ Tous les fichiers collectés avec succès.
+2026-04-07 15:14:43,476 [INFO] ============================================================

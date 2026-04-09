@@ -49,8 +49,12 @@ st.markdown(
     """
 L'application est organisée en plusieurs sections accessibles via le menu latéral :
 
-- **🏠 Accueil** : Présentation générale du projet.  
+- **app** : Présentation générale du projet.  
+- **🗺️ Carte globale** : Carte générale.
 - **🏢 Etablissements** : Données relatives aux établissements de santé en 2026.
+- **📌 KPI** : KPI.
+- **🩺 Soins** : Données relatives aux prestations de soins de santé en 2026.
+- **👨‍👩‍👧‍👦 Social** : Données relatives aux prestations sociales et médico-sociales en 2026.
 - **📖 Lexique** : Lexique utilisé  
 
 """

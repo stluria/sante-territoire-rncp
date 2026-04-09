@@ -1,0 +1,33 @@
+2026-04-07 20:40:23,373 [INFO] ============================================================
+2026-04-07 20:40:23,373 [INFO] DÉMARRAGE DE LA COLLECTE FINESS
+2026-04-07 20:40:23,374 [INFO] Répertoire de destination : /home/sluria/code/stluria/sante-territoire-rncp/data/raw
+2026-04-07 20:40:23,374 [INFO] ============================================================
+2026-04-07 20:40:23,376 [INFO] 
+→ FINESS equipements sociaux (finess_equipements_sociaux.csv)
+2026-04-07 20:40:23,376 [INFO] Téléchargement : https://www.data.gouv.fr/api/1/datasets/r/5eb67ddc-b58c-4531-a3f2-2c2843cf3986
+2026-04-07 20:40:24,454 [INFO]   ✓ Téléchargé : finess_equipements_sociaux.csv (22.5 Mo)
+2026-04-07 20:40:24,602 [INFO]   ✓ Intégrité OK : 110242 lignes | MD5 : 63336a271b018a7081af1254fabfeab2
+2026-04-07 20:40:24,602 [INFO] 
+→ FINESS activités de soins (finess_activites_soins.csv)
+2026-04-07 20:40:24,603 [INFO] Téléchargement : https://www.data.gouv.fr/api/1/datasets/r/69cb3e2f-dc0a-4cee-800a-cf98901d257d
+2026-04-07 20:40:24,984 [INFO]   ✓ Téléchargé : finess_activites_soins.csv (2.3 Mo)
+2026-04-07 20:40:25,013 [INFO]   ✓ Intégrité OK : 9429 lignes | MD5 : 9e4eeedcc77f5f7ba07489cdd702af3a
+2026-04-07 20:40:25,014 [INFO] 
+→ FINESS équipements sociaux et médico-sociaux (finess_etablissements.csv)
+2026-04-07 20:40:25,014 [INFO] Téléchargement : https://www.data.gouv.fr/api/1/datasets/r/98f3161f-79ff-4f16-8f6a-6d571a80fea2
+2026-04-07 20:40:26,663 [INFO]   ✓ Téléchargé : finess_etablissements.csv (45.6 Mo)
+2026-04-07 20:40:26,939 [INFO]   ✓ Intégrité OK : 205384 lignes | MD5 : d9099898cc9a559cc222138bce5470d1
+2026-04-07 20:40:26,940 [INFO] 
+→ Communes françaises 2025 (INSEE) (v_commune_2025.csv)
+2026-04-07 20:40:26,941 [INFO]   ⏭ Fichier déjà présent, vérification...
+2026-04-07 20:40:26,989 [INFO]   ✓ Intégrité OK : 37548 lignes | MD5 : 597646d4e82d40d9d4f494b220e451d5
+2026-04-07 20:40:26,989 [INFO] 
+============================================================
+2026-04-07 20:40:26,990 [INFO] RÉSUMÉ COLLECTE
+2026-04-07 20:40:26,990 [INFO]   ✓ finess_equipements_sociaux.csv : ok
+2026-04-07 20:40:26,991 [INFO]   ✓ finess_activites_soins.csv : ok
+2026-04-07 20:40:26,991 [INFO]   ✓ finess_etablissements.csv : ok
+2026-04-07 20:40:26,992 [INFO]   ✓ v_commune_2025.csv : ok_existing
+2026-04-07 20:40:26,992 [INFO] 
+✓ Tous les fichiers collectés avec succès.
+2026-04-07 20:40:26,993 [INFO] ============================================================

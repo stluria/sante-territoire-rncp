@@ -1,0 +1,30 @@
+2026-04-07 15:26:07,515 [INFO] ============================================================
+2026-04-07 15:26:07,515 [INFO] DÉMARRAGE DE LA COLLECTE FINESS
+2026-04-07 15:26:07,516 [INFO] Répertoire de destination : /home/sluria/code/stluria/sante-territoire-rncp/data/raw
+2026-04-07 15:26:07,516 [INFO] ============================================================
+2026-04-07 15:26:07,517 [INFO] 
+→ FINESS activités de soins (finess_activites_soin.csv)
+2026-04-07 15:26:07,518 [INFO]   ⏭ Fichier déjà présent, vérification...
+2026-04-07 15:26:07,870 [INFO]   ✓ Intégrité OK : 102756 lignes | MD5 : 380c16178f72de41c781b92ebf44e507
+2026-04-07 15:26:07,871 [INFO] 
+→ FINESS activités de soins (finess_equipements.csv)
+2026-04-07 15:26:07,872 [INFO]   ⏭ Fichier déjà présent, vérification...
+2026-04-07 15:26:08,062 [INFO]   ✓ Intégrité OK : 160711 lignes | MD5 : f6fca81bce12f92829238e57205706d0
+2026-04-07 15:26:08,063 [INFO] 
+→ FINESS équipements sociaux et médico-sociaux (finess_etablissements.csv)
+2026-04-07 15:26:08,063 [INFO]   ⏭ Fichier déjà présent, vérification...
+2026-04-07 15:26:08,380 [INFO]   ✓ Intégrité OK : 205384 lignes | MD5 : d9099898cc9a559cc222138bce5470d1
+2026-04-07 15:26:08,380 [INFO] 
+→ Communes françaises 2025 (INSEE) (v_commune_2025.csv)
+2026-04-07 15:26:08,381 [INFO]   ⏭ Fichier déjà présent, vérification...
+2026-04-07 15:26:08,416 [INFO]   ✓ Intégrité OK : 37548 lignes | MD5 : 597646d4e82d40d9d4f494b220e451d5
+2026-04-07 15:26:08,416 [INFO] 
+============================================================
+2026-04-07 15:26:08,416 [INFO] RÉSUMÉ COLLECTE
+2026-04-07 15:26:08,416 [INFO]   ✓ finess_activites_soin.csv : ok_existing
+2026-04-07 15:26:08,417 [INFO]   ✓ finess_equipements.csv : ok_existing
+2026-04-07 15:26:08,417 [INFO]   ✓ finess_etablissements.csv : ok_existing
+2026-04-07 15:26:08,417 [INFO]   ✓ v_commune_2025.csv : ok_existing
+2026-04-07 15:26:08,418 [INFO] 
+✓ Tous les fichiers collectés avec succès.
+2026-04-07 15:26:08,418 [INFO] ============================================================
