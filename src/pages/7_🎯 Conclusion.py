@@ -72,4 +72,4 @@ La démarche suivie repose sur les étapes classiques d’un projet data :
 2. **Collecte et exploration des données**  
 3. **Nettoyage et préparation (ETL)**  
 4. **Analyses statistiques et visualisations**   
-5. **Déploiement Streamlit**
+5. **Déploiement Streamlit** """)

@@ -9,17 +9,19 @@ from pathlib import Path
 from streamlit_folium import st_folium
 
 # ─── CHARGEMENT DONNÉES ───────────────────────────────────────────
-df = pd.read_csv("data/etablissements_occitanie.csv", sep=';',dtype={"departement": str, "code_insee": str})
-df_communes = pd.read_csv("data/communes-france-2025.csv", sep=",", encoding="utf-8",   dtype={"departement": str, "code_insee": str}
-)
+import os
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+df = pd.read_csv(os.path.join(BASE_DIR,"..", "data", "etablissements_occitanie.csv"), sep=';',dtype={"departement": str})
+df_communes = pd.read_csv(os.path.join(BASE_DIR,"..", "data","communes-france-2025.csv"), sep=",", encoding="utf-8")
 df_communes_occitanie = df_communes[df_communes['reg_nom'] == 'Occitanie']
-df_soin = pd.read_csv("data/soins_limit.csv", sep=';', encoding="utf-8", dtype={"departement": str,"code_insee": str})
+df_soin = pd.read_csv(os.path.join(BASE_DIR,"..", "data","soins_limit.csv"), sep=';', encoding="utf-8")
 df_urgences = df_soin[df_soin['libactivite'].str.contains("urgence", case=False, na=False)]
-df_distances = pd.read_csv("data/distances_communes_urgence_occitanie.csv")
-df_equipements = pd.read_csv("data/equipements_occitanie.csv", sep=';', encoding="utf-8", dtype={"departement": str,"code_insee": str})
+df_distances = pd.read_csv(os.path.join(BASE_DIR,"..", "data","distances_communes_urgence_occitanie.csv"))
+df_equipements = pd.read_csv(os.path.join(BASE_DIR,"..", "data","equipements_occitanie.csv"), sep=';', encoding="utf-8", dtype={"departement": str,"code_insee": str})
 df_join = pd.merge(df, df_communes, on="code_insee", how="left" )
 #jointure de soins et communes
 df_soin_communes = pd.merge(df_soin, df_communes, on="code_insee", how="inner")
+
 
 # --- CONFIGURATION ---
 st.set_page_config(page_title="Offres de soins - Occitanie", layout="wide")
@@ -33,7 +35,10 @@ tab3, tab4 = st.tabs([ "🩺 Soins",  "🚑 Distances aux urgences"
 with tab3:
     st.header("Carte interactive des soins de santé")
     
-    departements_occitanie = ["09","11", "12", "30","31", "32", "34", "46", "48","65", "66", "81", "82",  ]
+    # Option 1 — tout en string avec zéro initial 
+    df_soin["departement"] = df_soin["departement"].astype(str).str.zfill(2)
+
+    departements_occitanie = ["09","11","12","30","31","32","34","46","48","65","66","81","82"]
     df_soin_occitanie = df_soin[df_soin["departement"].isin(departements_occitanie)]
     # --- KPI ---
     total_soins = df_soin_occitanie['libactivite'].notna().sum()
