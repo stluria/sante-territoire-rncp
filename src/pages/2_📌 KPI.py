@@ -11,12 +11,12 @@ from streamlit_folium import st_folium
 
 import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-df = pd.read_csv(os.path.join(BASE_DIR, "data", "etablissements_occitanie.csv"), sep=';',dtype={"departement": str})
-df_communes = pd.read_csv(os.path.join(BASE_DIR, "data","communes-france-2025.csv"), sep=",", encoding="utf-8")
+df = pd.read_csv(os.path.join(BASE_DIR,"..", "data", "etablissements_occitanie.csv"), sep=';',dtype={"departement": str})
+df_communes = pd.read_csv(os.path.join(BASE_DIR,"..", "data","communes-france-2025.csv"), sep=",", encoding="utf-8")
 df_communes_occitanie = df_communes[df_communes['reg_nom'] == 'Occitanie']
-df_soin = pd.read_csv(os.path.join(BASE_DIR, "data","soins_limit.csv"), sep=';', encoding="utf-8")
+df_soin = pd.read_csv(os.path.join(BASE_DIR,"..", "data","soins_limit.csv"), sep=';', encoding="utf-8")
 df_urgences = df_soin[df_soin['libactivite'].str.contains("urgence", case=False, na=False)]
-df_distances = pd.read_csv(os.path.join(BASE_DIR, "data","distances_communes_urgence_occitanie.csv"))
+df_distances = pd.read_csv(os.path.join(BASE_DIR,"..", "data","distances_communes_urgence_occitanie.csv"))
 
 
 # =================================================================
