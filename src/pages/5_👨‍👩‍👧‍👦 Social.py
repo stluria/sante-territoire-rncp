@@ -29,7 +29,7 @@ df_soin_communes = pd.merge(df_soin, df_communes, on="code_insee", how="inner")#
 #jointure de soins et communes
 df_equipements_communes = pd.merge(df_equipements, df_communes, on="code_insee", how="inner")
 #charge la carte
-with open("data/epci_occitanie.geojson", encoding="utf-8") as f:
+with open(os.path.join(BASE_DIR,"..", "data","epci_occitanie.geojson"), encoding="utf-8") as f:
     geojson_epci = json.load(f)
 # --- CONFIGURATION ---
 st.set_page_config(page_title="Les prestations sociales - Occitanie", layout="wide")

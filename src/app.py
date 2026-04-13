@@ -13,7 +13,7 @@ st.set_page_config(
 # ---------------------------------------------------------
 # HEADER
 # ---------------------------------------------------------
-st.title("📊 Projet de Fin d'Études – Data Analyst : Comment aider les acteurs locaux à réaliser un diagnostic de santé publique relatifs aux Etablissements sur leur territoire en Occitanie?")
+st.title("📊 Projet – Data Analyst : Comment aider les acteurs locaux à réaliser un diagnostic de santé publique relatifs aux Etablissements sur leur territoire en Occitanie?")
 st.subheader("Analyse, automatisation et visualisation de données")
 
 st.markdown(
